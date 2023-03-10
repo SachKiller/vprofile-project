@@ -208,8 +208,8 @@
     </build>
   <repositories>
       <repository>
-        <id>codeartifact</id>
-        <name>codeartifact</name>
+        <id>visualdomain-maven-central-store</id>
+        <name>visualdomain-maven-central-store</name>
     <url>>https://visualdomain-974521090729.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/</url>
       </repository>
     </repositories>
