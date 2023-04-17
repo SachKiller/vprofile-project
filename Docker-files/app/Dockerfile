@@ -1,4 +1,4 @@
-FROM tomcat:8-jre11
+FROM tomcat:9.0.73-jdk8-corretto-al2
 LABEL "Project"="Vprofile"
 # LABEL "Author"="Imran"
 
@@ -9,3 +9,4 @@ EXPOSE 8080
 CMD ["catalina.sh", "run"]
 WORKDIR /usr/local/tomcat/
 VOLUME /usr/local/tomcat/webapps
+
